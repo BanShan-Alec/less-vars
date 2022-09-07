@@ -39,3 +39,9 @@ _示例常量文件如下_
 3. 鼠标悬浮在变量上时出现提示
 
 ![avatar](/images/list4.png)
+
+## 项目结构
+
+1. 入口文件
+./src/extension.ts
+
