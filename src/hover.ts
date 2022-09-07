@@ -57,7 +57,7 @@ function provideHover(
   }
 }
 
-module.exports = function (context: vscode.ExtensionContext) {
+export default function (context: vscode.ExtensionContext) {
   // 注册鼠标悬停提示
   context.subscriptions.push(
     vscode.languages.registerHoverProvider("less", {

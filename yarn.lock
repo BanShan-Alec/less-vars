@@ -23,6 +23,11 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
+"@cvte/design@^0.0.1":
+  version "0.0.1"
+  resolved "https://artifactory.gz.cvte.cn/artifactory/api/npm/cvte-npm-registry/@cvte/design/-/@cvte/design-0.0.1.tgz#4ea4cb04efcc972d5719d7ebf4e2ece9ea596549"
+  integrity sha1-TqTLBO/Mly1XGdfr9OLs6epZZUk=
+
 "@discoveryjs/json-ext@^0.5.0":
   version "0.5.7"
   resolved "https://registry.npmmirror.com/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz#1d572bfbbe14b7704e0ba0f39b74815b84870d70"

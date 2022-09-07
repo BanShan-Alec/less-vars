@@ -129,8 +129,8 @@ function registerCommand(context: vscode.ExtensionContext) {
   };
 }
 
-module.exports = function (context: vscode.ExtensionContext) {
+export default function (context: vscode.ExtensionContext) {
   context.subscriptions.push(
     vscode.commands.registerCommand("setLocations", registerCommand(context))
   );
-};
+}
