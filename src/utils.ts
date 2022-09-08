@@ -17,6 +17,7 @@ export interface DepValue {
 }
 
 const myRequire = (str: string) => {
+  // vscode 的require模块有问题，相对/绝对路径都无法引入
   const module = { exports: {} };
   ((module, exports) => {
     eval(str);
@@ -71,6 +72,15 @@ const utils = {
             };
           } catch (e) {
             console.log(e);
+          }
+        } else if (allFile[i].slice(-4) === "json") {
+          try {
+            allVars = {
+              ...JSON.parse(context),
+              ...allVars,
+            };
+          } catch (error) {
+            console.log(error);
           }
         }
       }
