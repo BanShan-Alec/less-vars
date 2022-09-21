@@ -27,8 +27,8 @@ function provideHover(
   // 检测路径配置是否正确
   const error = [];
   for (let i = 0; i < allFile.length; i++) {
-    if (allFile[i].slice(-4) !== "less" && allFile[i].slice(-2) !== "js") {
-      error.push(`只支持less或js文件,${allFile[i]}`);
+    if (allFile[i].slice(-4) !== "json" &&  allFile[i].slice(-4) !== "less" && allFile[i].slice(-2) !== "js") {
+      error.push(`只支持json,less或js文件,${allFile[i]}`);
     }
     if (!fs.existsSync(allFile[i])) {
       error.push(`路径配置有误,${allFile[i]}`);
