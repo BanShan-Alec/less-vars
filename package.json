@@ -3,7 +3,7 @@
   "displayName": "less vars",
   "description": "可提示less变量的VS Code插件",
   "publisher": "zehua",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "repository": "https://github.com/BanShan-Alec/less-vars.git",
   "engines": {
     "vscode": "^1.27.0"
@@ -12,7 +12,7 @@
     "less",
     "vars"
   ],
-  "icon": "images/icon.jpg",
+  "icon": "images/icon.png",
   "categories": [
     "Other"
   ],
