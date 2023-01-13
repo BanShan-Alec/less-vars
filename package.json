@@ -2,7 +2,7 @@
   "name": "less-vars",
   "displayName": "less vars",
   "description": "可提示less变量的VS Code插件",
-  "publisher": "zehua",
+  "publisher": "BanShan",
   "version": "0.2.8",
   "repository": "https://github.com/BanShan-Alec/less-vars.git",
   "engines": {

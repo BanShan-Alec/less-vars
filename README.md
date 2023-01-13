@@ -1,5 +1,14 @@
 # 可提示 less 变量的 VS code 插件
 
+## change
+fork from https://github.com/gcdxuzhiwei/less-vars
+导入less表量的方式，支持JSON
+
+## why
+JSON类型的支持， 是为了优化导入体验，与`less.modifyVars`方式无差别
+你还可以像我一样，从node_modules中导入less变量
+![avatar](/images/import less.png)
+
 ## quick start
 
 1. 打开设置点击右上角**打开设置(json)**添加如下配置项
