@@ -2,12 +2,15 @@
 
 ## change
 fork from https://github.com/gcdxuzhiwei/less-vars
+
 导入less表量的方式，支持JSON
 
 ## why
 JSON类型的支持， 是为了优化导入体验，与`less.modifyVars`方式无差别
+
 你还可以像我一样，从node_modules中导入less变量
-![avatar](/images/import less.png)
+
+![avatar](/images/import.png)
 
 ## quick start
 
